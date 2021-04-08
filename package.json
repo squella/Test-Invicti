@@ -1,0 +1,26 @@
+{
+    "name": "typescript",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@wdio/cli": "^7.3.0",
+        "es5-shim": "^4.5.15"
+    },
+    "devDependencies": {
+        "@wdio/cucumber-framework": "^7.3.0",
+        "@wdio/local-runner": "^7.3.0",
+        "@wdio/spec-reporter": "^7.3.0",
+        "chromedriver": "^89.0.0",
+        "ts-node": "^9.1.1",
+        "tsconfig-paths": "^3.9.0",
+        "typescript": "^4.2.3",
+        "wdio-chromedriver-service": "^7.0.0"
+    }
+}
